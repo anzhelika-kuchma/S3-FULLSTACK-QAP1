@@ -15,6 +15,14 @@ const server = http.createServer((req, res) => {
 
     // confirming that the request was made successfully
     console.log('request made');
+
+    //setting header content type
+    res.setHeader('Content-Type', 'text/plain');
+
+    // setting webpage comtent
+    res.write('Full Stack Javascript');
+    
+    res.end()
 })
 
 // making the server listen on port 3000 and the 'localhost' address
