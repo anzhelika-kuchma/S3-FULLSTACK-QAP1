@@ -1,3 +1,12 @@
+/*The http module in Node.js is a core module that helps you create HTTP servers and make 
+HTTP requests. It is included in the standard library and is commonly used in building 
+web applications and managing HTTP communication.
+
+The server created using createServer takes a callback function that is invoked for each 
+incoming HTTP request.
+The callback function receives the request and response objects, allowing you to handle 
+the incoming request and send a response. */
+
 // importing the http module
 const http = require('http');
 
